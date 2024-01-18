@@ -76,7 +76,20 @@
 #print("total", total)
 
 # Write a Python Program to print multiplication table of any number.
-num = int(input("Enter your number :"))
+#num = int(input("Enter your number :"))
 
-for i in range(1,11):
-    print(num,"*",i,"=",num*i)
+#for i in range(1,11):
+#    print(num,"*",i,"=",num*i)
+
+#Write a Python Program to count number of digits in a number.
+a = int(input("Enter your number :"))
+
+for i in range(0,a):
+    print(i)
+
+
+
+
+
+
+
