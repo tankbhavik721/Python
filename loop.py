@@ -19,9 +19,9 @@
 
 
 #print 3 table
-i = 1
-t = 2
-while(i<=10):
-    print(i*t)
-    i = i + 1
+#i = 1
+#t = 2
+#while(i<=10):
+#   print(i*t)
+#   i = i + 1
 

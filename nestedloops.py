@@ -20,20 +20,20 @@
 
 #    print(end="\n")
 
-a = int(input("Enter your value :"))
+#a = int(input("Enter your value :"))
 
-for i in range(0,a):
+#for i in range(0,a):
 
-    for j in range(0,(a-i)):
+#    for j in range(0,(a-i)):
 
-        print(end=" ")
+#        print(end=" ")
     
-    for k in range(0,i+1):
+#    for k in range(0,i+1):
 
-        print("*", end="")
+#        print("*", end="")
             
-    print("\n")
+#    print("\n")
 
         
 
-    print(end="\n")
+#    print(end="\n")

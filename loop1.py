@@ -14,13 +14,15 @@
 #    i = i + 1
 
 #find odd number
-a = int(input("Enter your number :"))
-i = 1
-while i<=a:
+#a = int(input("Enter your number :"))
+#i = 1
+#while i<=a:
 
-    if(i%2!=0):
-        print(i , "odd")
-    else:
-        print(i , "even")
-    i = i + 1
+#   if(i%2!=0):
+#        print(i , "odd")
+#    else:
+#        print(i , "even")
+#    i = i + 1
 
+#find friquency 
+num = int(input("enter your number"))

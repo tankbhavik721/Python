@@ -82,10 +82,18 @@
 #    print(num,"*",i,"=",num*i)
 
 #Write a Python Program to count number of digits in a number.
-a = int(input("Enter your number :"))
+#a = int(input("Enter your number :"))
+#i = 0
+#count = 1
+#while()
+n=int(input("Enter number:"))
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print("The number of digits in the number are:",count)
+ 
 
-for i in range(0,a):
-    print(i)
 
 
 
