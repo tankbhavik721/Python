@@ -12,7 +12,28 @@
 #else:
 #    print(d, "maximum number")
 
+#printing reverse counting 
+#i = 10
+#while i>0:
+#    print(i)
+#    i = i - 1     
+#for i in range(10,0,-1):
+#    print(i)           
 
-#
-            
-            
+#prime number or not prime number
+a = int(input("Enter number :"))  
+
+flag = 0
+
+for i in range(2,a):
+
+    if(a%i==0):
+        flag = 1
+if(flag==1):
+    print(a, "not prime number")
+else:
+    print(a,"prime number")
+    
+#prime or not prime number by loop
+   
+
