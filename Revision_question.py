@@ -36,19 +36,23 @@
     
 #factorial number
 
-#print all prime number for 1 to n
-a = int(input("Enter your number :"))
-if a%2==1:
-    print("not prime")
-if a%2==0:
-    i = 2
-    for i in range(i,a):
-        if a%i==0:
-            print(a,"not prime")
-        else:
-            print(a,"prime number")
-            a = a - 1
-            i = i + 1
+#print all prime number for 1 to n or in range or in interval
+
+#lower = int(input("Enter your starting no :"))
+#upper = int(input("Enter your ending no :"))
+
+#for num in range(lower,upper + 1):
+#    if num>1:
+
+#        for i in range(2,num):
+#            if num%i==0:
+#                break
+#        else:
+#            print(num,"prime number")             
+
+        
+         
+
 #strong number or not
 
 #hcf 
@@ -62,4 +66,5 @@ if a%2==0:
 #print(total)
 
    
+
 
