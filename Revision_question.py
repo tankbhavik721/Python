@@ -49,10 +49,6 @@
 #                break
 #        else:
 #            print(num,"prime number")             
-
-        
-         
-
 #strong number or not
 
 #hcf 
@@ -64,7 +60,57 @@
 #    a = a//10
 #    total = total + 1
 #print(total)
+#
+#armstrong number 
+#num = int(input("Enter your number"))
+#order = len(str(3))
+#sum = 0
+#tamp = num
 
-   
+#while tamp>0:
+#    digit = tamp%10
+#    cube = digit ** order
+#    sum = sum + cube
+#    tamp = tamp//10
+    
+#if sum==num:
+#    print("armstrong number")
+#else:
+#    print("no armstrong number")
+#
+#strong number
+a = int(input("Enter your number :"))
+original = a
+sum = 0
+while a>0:
+    fact = 1
+    b= a%10
+     
+    for i in range(b,0,-1):
+        
+        fact = fact * i
+        i = i + 1
+        
+    a = a//10
+    sum = sum + fact
+if sum==original:
+    print(sum,"strong number")
+else:
+    print(sum,"not a strong number")  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
