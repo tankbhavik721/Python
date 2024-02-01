@@ -79,26 +79,53 @@
 #    print("no armstrong number")
 #
 #strong number
-a = int(input("Enter your number :"))
-original = a
-sum = 0
-while a>0:
-    fact = 1
-    b= a%10
+#a = int(input("Enter your number :"))
+#original = a
+#sum = 0
+#while a>0:
+#    fact = 1
+#    b= a%10
      
-    for i in range(b,0,-1):
+#    for i in range(b,0,-1):
         
-        fact = fact * i
-        i = i + 1
+#        fact = fact * i
+#        i = i + 1
         
-    a = a//10
-    sum = sum + fact
-if sum==original:
-    print(sum,"strong number")
-else:
-    print(sum,"not a strong number")  
-    
+#    a = a//10
+#    sum = sum + fact
+#if sum==original:
+#    print(sum,"strong number")
+#else:
+#    print(sum,"not a strong number") 
+ 
+# Write a Python Program to find digit of a number
+#a = int(input("Enter your number :")) 
 
+#total = 0
+
+#while a>0:
+#    b = a%10
+#    a = a//10
+#    total = total + 1
+#print(total)
+# Write program to digit first and last digit of a number
+#a = int(input("Enter your number :"))
+#first = a
+#last = a%10
+#sum = 0
+
+#while first>9:
+#    first = first //10
+
+
+#print("first number of a given number :",first)
+#print("last number of a given number :",last)
+#sum = first + last
+#print("sum of first and last digit",sum)
+
+
+
+    
 
 
 
