@@ -123,8 +123,27 @@
 #sum = first + last
 #print("sum of first and last digit",sum)
 
+#first natural number
+#a = int(input("enter your number :"))
+#for i in range(1,a):
+#    print(i)
+#i = 1
+#while i<a:
+#    print(i)
+#    i = i + 1
 
 
+#print all even number in given range
+a = int(input("enter your number :"))
+for i in range(1,a):
+    if i%2==0:
+        print(i,"even number")
+    else:
+        print(i,"odd number")
+#if flag == 1:
+#    print(i,'even number')
+#else:
+#    print(i,'not even')
     
 
 
