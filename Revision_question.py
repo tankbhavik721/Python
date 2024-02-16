@@ -134,23 +134,66 @@
 
 
 #print all even number in given range
-a = int(input("enter your number :"))
-for i in range(1,a):
-    if i%2==0:
-        print(i,"even number")
-    else:
-        print(i,"odd number")
+#a = int(input("enter your number :"))
+#for i in range(1,a):
+#    if i%2==0:
+#        print(i,"even number")
+#    else:
+#        print(i,"odd number")
 #if flag == 1:
 #    print(i,'even number')
 #else:
 #    print(i,'not even')
     
+#a = [10,20,30,40,50,60,70,80,90,100]
+#i = 1
+#while i!=0:
+
+#    print("press 1 for append new value,press 2 for remove value,press 3 for print list,press 4 for len list,press 0 for exit")
+#    i = int(input("Enter your number :"))
+
+#    if i==1:
+#        value = input("enter your value :")
+#        a.append(value)
+#    elif i==2:
+#        j = input("enter value :")
+#        a.remove(j)
+#    elif i==3:
+#        print(a)
+#    elif i==4:
+#        print(len(a))
+    
+#first natural number
+#a = int(input("Enter your number :"))
+#i = 1
+#for i in range(i,a,1):
+#   if i<a:
+#        print(i)
 
 
+#all even number
+#a = 20
+#i = 0
+#for i in range(0,a):
+#    if i%2==0:
+#        print(i,'even number')
 
+#sum of all number from 1 to given
+#a = int(input("Enter your number :"))
+#i = 0
+#sum = 0
+#for i in range(1,a):
+#    sum = i + sum
+#    print(sum)
 
-
-
+#total of all odd number in a given range
+a = int(input('enter range'))
+i = 0
+sum = 0
+for i in range(1,a):
+    if i%2==1:
+        sum = i + sum
+        print(sum)
 
 
 

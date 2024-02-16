@@ -1,0 +1,6 @@
+a = {1,2,3,4,5,6}
+b = {"b","c","t","y",3,50,70,70}
+#a.add("a")
+#a.update(b)
+c = a.union(b)
+print(c)

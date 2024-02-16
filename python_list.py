@@ -55,9 +55,58 @@ a = [10,20,30,40,50,60,70,80]
 #    print('exist')
 #else:
 #    print('not exist')
+# Swap Element
+#a = [10,20,30,40,50,60,70,80]
+#print (a[0:7:2])
+#a = [10,20,30,40,50,60,70,80,90,100]
+#a = []
+#n = int(input("enter your list size"))
+#for i in range(0,n):
+#    ele = int()
 
-print (a[0:7:2])
+#first_value = int(input("Enter your first value :"))
+#second_value = int(input("Enter your first value :"))
+#third_value = int(input("Enter your first value :"))
+#four_value = int(input("Enter your first value :"))
+#fivth_value = int(input("Enter your first value :"))
 
+
+
+
+
+
+#i = 1
+#while i!=0:
+
+#    print("Press 1 for append New Value , Press 2 Remove Value , Press 3 Print List , Press 4 Print len list , Press 0 For Exit :")
+#    i = int(input("Enter Number :"))
+
+#    if(i==1):
+#        value = input("Enter Your Value :")
+#        a.append(value)
+    
+#    elif(i==2):
+#        j = input("Enter Value : ")
+#        a.remove(j)
+    
+#    elif(i==3):
+#        print(a)
+    
+#    elif(i==4):
+#        print(len(a))
+
+#a = [10,20,30,40,50,60,70,80,90,100]
+#print(len(my_list))
+#b = a(0:5:2)
+#print(b)
+ 
+a = []
+size = int(input("enter size of tupl :"))
+for i in range(size):
+    val = input("Enter  value :")
+    a.append(val)
+b = tuple(a)
+print(b)
 
     
     
