@@ -37,7 +37,7 @@ a = [10,20,30,40,50,60]
 
 #list method
 #append
-a = [10,20,30,40,50,60,70,80]
+#a = [10,20,30,40,50,60,70,80]
 #a.append("aman")
 #print(a)
 
@@ -100,18 +100,31 @@ a = [10,20,30,40,50,60,70,80]
 #b = a(0:5:2)
 #print(b)
  
-a = []
-size = int(input("enter size of tupl :"))
-for i in range(size):
-    val = input("Enter  value :")
-    a.append(val)
-b = tuple(a)
-print(b)
+#a = []
+#size = int(input("enter size of tupl :"))
+#for i in range(size):
+#    val = input("Enter  value :")
+#    a.append(val)
+#b = tuple(a)
+#print(b)
 
-    
-    
-    
-    
+#python program for interchange value in a list
+my_list = [10,20,30,40,50,60,70,80,90,100]
+#first_value = my_list[0] 
+#last_value = my_list[-1]
+#my_list.append(last_value)
+#first_value = my_list[0]
+#my_list.append(first_value) 
+#my_list[0] = my_list.append[]
+#my_list[-1] = my_list[0]
+#print(my_list)
+for i in my_list:
+    #my_list[0] = my_list[-1]
+    my_list[-1] = my_list[0]
+print(my_list)
+
+
+
 
     
 
